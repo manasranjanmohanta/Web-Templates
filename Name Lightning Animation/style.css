@@ -1,0 +1,32 @@
+:root {
+    --effect: hover 1s linear infinite;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    text-decoration: uppercase;
+    text-align: center;
+    font-size: 4em;
+    font-family: arial;
+    font-weight: 600;
+    transform: scale(0.5);
+    color: #121212;
+    -webkit-text-stroke: 2px gray;
+}
